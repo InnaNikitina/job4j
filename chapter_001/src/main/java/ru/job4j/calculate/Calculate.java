@@ -6,9 +6,9 @@ package ru.job4j.calculate;
 * @since 13.07.2018
 */
 
-public class Calculate{
+public class Calculate {
 	
-		public static void main(String[] args){
+		public static void main(String[] args) {
 			System.out.println("Hello World");	
 		}
 		/**
