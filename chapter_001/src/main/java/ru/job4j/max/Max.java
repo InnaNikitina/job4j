@@ -7,13 +7,9 @@ package ru.job4j.max;
 
 public class Max {
 
-    //Максимум из двух чисел.
-
     public int max(int first, int second) {
         return first > second ? first : second;
     }
-
-    //Максимум из трех чисел.
 
     public int max(int first, int second, int third) {
         int temp = this.max(first, second);

@@ -30,7 +30,7 @@ public class MaxTest {
     @Test
     public void whenThirdIsTheBiggest() {
         Max max3 = new Max ();
-        int result = max3.max(1,1,3);
+        int result = max3.max(2,2,3);
         assertThat(result, is(3));
     }
 }
