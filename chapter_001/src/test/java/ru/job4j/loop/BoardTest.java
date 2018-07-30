@@ -1,4 +1,7 @@
 package ru.job4j.loop;
+/**
+ * Класс для проверки рисования доски в псевдографике.
+ */
 
 import org.junit.Test;
 

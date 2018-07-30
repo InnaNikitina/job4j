@@ -3,6 +3,7 @@ package ru.job4j.loop;
 /**
  * Класс создает шахматную доску в псевдографике.
  * @since 30.07.2018
+ * @version 1
  */
 
 public class Board {
