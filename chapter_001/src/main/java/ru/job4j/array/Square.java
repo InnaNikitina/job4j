@@ -6,18 +6,12 @@ package ru.job4j.array;
 
 
 public class Square {
-    int i = 1;
 
     public int[] calculate(int bound) {
         int[] rst = new int[bound];
         for (int n = 0; n < bound; n++) {
-            rst[n] = (int) Math.pow(i, 2);
-            i++;
-            if (i > bound) {
-                break;
-            }
+            rst[n] = (int) Math.pow((n + 1), 2);
         }
-
         return rst;
     }
 }
