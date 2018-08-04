@@ -20,17 +20,18 @@ public class MaxTest {
         int result = maxim.max(3, 1);
         assertThat(result, is(3));
     }
+
     @Test
     public void whenFirstIsTheBiggest() {
-        Max max3 = new Max ();
-        int result = max3.max(5,2,1);
+        Max max3 = new Max();
+        int result = max3.max(5, 2, 1);
         assertThat(result, is(5));
     }
 
     @Test
     public void whenThirdIsTheBiggest() {
-        Max max3 = new Max ();
-        int result = max3.max(2,2,3);
+        Max max3 = new Max();
+        int result = max3.max(2, 2, 3);
         assertThat(result, is(3));
     }
 }
