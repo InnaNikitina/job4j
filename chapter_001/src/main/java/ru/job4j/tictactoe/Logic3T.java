@@ -50,17 +50,14 @@ public class Logic3T {
     }
 
     public boolean hasGap() {
-        int count = table.length * table.length;
-        boolean gap = true;
+        boolean gap = false;
         for (int i = 0; i < table.length; i++) {
             for (int j = 0; j < table.length; j++) {
-                if (table[i][j].hasMarkX() || table[i][j].hasMarkO()) {
-                    count--;
+                if (!(table[j][i].hasMarkX() || table[i][j].hasMarkO())) {
+                    gap = true;
+                    break;
                 }
             }
-        }
-        if (count == 0) {
-            gap = false;
         }
         return gap;
     }
